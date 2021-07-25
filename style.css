@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("background.jpg");
+}
+.header
+{
+    width: 100%;
+    font-size: x-large;
+    height: fit-content;
+    font-variant-caps: titling-caps;
+}
+.note
+{
+    background-color: white;
+    color:black;
+}
+#text1
+{
+    width: 75%;
+    height: fit-content;
+    font-size: large;
+}
+#footer
+{
+    width: 100%;
+    height: fit-content;
+    bottom: 0px;
+    position:fixed;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+canvas
+{
+    background-color: white;
+    margin-top: 9%;
+    border: 10px solid black;
+}
+.button
+{
+    font-size: 25px;
+}

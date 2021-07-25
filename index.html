@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Realtime Font size changer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<center>
+  <h3 class="btn btn-info header">Changing Font-Size and postion of a Text in Realtime
+
+    <br>
+    <span class="btn-default note">NOTE - Get your left and right wrist closer 
+      to reduce the size of the font and to increase the size of <br>
+      the font keep your left and right wrist far from each other.
+      Move your nose to move the text 
+    <span><h3>Font-size:<p id="height"></span><span></p></h3></span</span>
+</h3>
+  <br>
+  <br>
+  <input id="text1" type="text" placeholder="Type the text you want to change the font-size and click on set text button"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-success button" onclick="fix()">Set text</button>
+  <br>
+  <div id="footer">Developed and copy rights by - Aryan  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Gmail: aryansathishkumar@gmail
+  </div>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
